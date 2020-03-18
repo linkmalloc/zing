@@ -1,0 +1,17 @@
+name: deploy to dev
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@master
+        - uses: helaili/jekyll-action@master
+        - uses: w9jds/firebase-action
+          with:
+            args: deploy --only hosting
+          env:
+            FIREBASE_TOKEN: ${{ secrets.dev_firebase_token }}

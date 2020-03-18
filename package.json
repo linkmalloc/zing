@@ -1,0 +1,24 @@
+{
+  "name": "zing.linkmalloc.com",
+  "version": "1.0.0",
+  "description": "bootstrap new websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkmalloc/zing.git"
+  },
+  "keywords": [
+    "new",
+    "linkmalloc",
+    "site"
+  ],
+  "author": "linkmalloc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkmalloc/zing/issues"
+  },
+  "homepage": "https://github.com/linkmalloc/zing#readme"
+}
